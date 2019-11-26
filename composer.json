@@ -1,0 +1,21 @@
+{
+    "name": "faker/person",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhuge",
+            "email": "zhuge.ai@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FakerPerson\\": "src/"
+        }
+    }
+}
